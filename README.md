@@ -1,0 +1,4 @@
+# edgeASTC
+An Adaptive Sparse Ternary Gradient Compression (ASTC) scheme for distributed DNN training in edge computing is proposed. More specifically, it includes layers gradient selection, gradient sparsification and ternarization followed with an encoding to further compress the size of the gradients that need to be transferred during the training.
+
+We make the datasets used in the experiments public, that is MNIST and CIFAR-10. At this stage, we are trying to evaluate our approach in a large-scale cluster, including multiple heterogeneous nodes with various computing and network transmission capabilities. Meanwhile, our code is being improved to achieve a higher compression ratio while maintaining the accuracy of the training model. We will release the latest version of our code as soon as possible. Please look forward to it!
